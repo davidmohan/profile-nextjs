@@ -1,0 +1,65 @@
+.outer {
+  width: 100%;
+  height: auto;
+  background-color: #030029;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10rem 0;
+
+  .inner {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .top {
+      padding: 0 0 4rem 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      .title {
+        font-size: 3rem;
+        font-weight: 900;
+        text-transform: uppercase;
+        color: #fff;
+      }
+
+      .line {
+        width: 5rem;
+        height: 5px;
+        background-color: #f00;
+      }
+    }
+
+    .skills {
+      display: flex;
+      width: 100%;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+
+      .skill {
+        width: 150px;
+        height: 150px;
+        margin: 1.5rem 2rem;
+        border-radius: 30%;
+        background-color: #ffffff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: all 200ms ease;
+        cursor: pointer;
+
+        &:hover {
+          background-color: #fff9;
+          margin: 2.6rem 2.6rem;
+
+        }
+      }
+    }
+  }
+}

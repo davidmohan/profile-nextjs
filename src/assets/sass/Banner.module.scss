@@ -1,0 +1,31 @@
+.outer {
+  width: 100%;
+  height: 85vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('../img/intro-comp-bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .name {
+      text-transform: uppercase;
+      color: #fff;
+      font-size: 7.5rem;
+      font-weight: 800;
+    }
+
+    .passion {
+      color: #d9d9d9;
+      font-size: 2.5rem;
+    }
+  }
+}

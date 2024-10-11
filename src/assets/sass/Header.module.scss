@@ -1,0 +1,22 @@
+.btn {
+  z-index: 1;
+  position: fixed;
+  top: 30px;
+  right: 30px;
+  border: 1px solid #fff;
+  background-color: #00000050;
+  color: #fff;
+  padding: 1rem 3rem;
+  font-size: medium;
+  font-weight: bold;
+  transition: all 200ms ease;
+  cursor: pointer;
+  text-transform: uppercase;
+
+  &:hover,
+  &:focus {
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #000;
+  }
+}
