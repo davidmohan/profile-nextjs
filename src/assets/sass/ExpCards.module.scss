@@ -77,3 +77,33 @@
     }
   }
 }
+
+@media screen and (max-width: 425px) {
+  .outer {
+    width: 100%;
+    padding: 2rem 1rem;
+
+    .outer_title {
+      font-size: 2rem;
+      width: 100%;
+    }
+
+    .div {
+      .card {
+        width: 100%;
+
+        .title {
+          font-size: 1rem;
+        }
+
+        .subtitle {
+          font-size: .8rem;
+        }
+
+        .content {
+          font-size: 1rem;
+        }
+      }
+    }
+  }
+}

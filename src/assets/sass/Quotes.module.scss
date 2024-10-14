@@ -23,8 +23,27 @@
         padding: 2rem 10rem 0 0;
 
         i {
-
           font-weight: 800;
+        }
+      }
+    }
+  }
+}
+
+
+@media screen and (max-width: 425px) {
+  .outer {
+    padding: 4rem 1rem;
+
+    // display: none;
+    .inner {
+      width: 100%;
+
+      .quote {
+        font-size: 1.2rem;
+
+        div {
+          padding: 1rem 1rem 0 0;
         }
       }
     }

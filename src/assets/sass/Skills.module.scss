@@ -54,10 +54,39 @@
         transition: all 200ms ease;
         cursor: pointer;
 
+        .skillIcon {
+          width: 70%;
+          height: fit-content;
+        }
+
         &:hover {
           background-color: #fff9;
           margin: 2.6rem 2.6rem;
+        }
+      }
+    }
+  }
+}
 
+
+@media screen and (max-width: 425px) {
+  .outer {
+    // display: none;
+    padding: 5rem 0 5rem 0;
+
+    .inner {
+      width: 85%;
+
+      .skills {
+        .skill {
+          width: 55px;
+          height: 55px;
+          margin: .5rem;
+
+          &:hover {
+            background-color: #fff9;
+            margin: .5rem;
+          }
         }
       }
     }

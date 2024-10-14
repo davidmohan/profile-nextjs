@@ -16,3 +16,21 @@
     }
   }
 }
+
+
+@media screen and (max-width: 425px) {
+  .outer {
+
+    // display: none;
+    padding: 2rem 0rem;
+
+    .inner {
+      display: flex;
+      flex-direction: column;
+
+      .card {
+        width: 100%;
+      }
+    }
+  }
+}

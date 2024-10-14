@@ -6,12 +6,6 @@
 //   padding: 5px;
 //   background-color: #030029;
 //   color: #fff;
-
-//   a {
-//     i {
-//       color: #f58442;
-//     }
-//   }
 // }
 
 
@@ -19,9 +13,9 @@
   width: 100%;
   display: flex;
   justify-content: center;
-  align-items: center;
-  padding: 3rem 0rem;
-  background-color: #03002920;
+  // align-items: center;
+  padding: 5rem 0rem;
+  background-color: #030029;
   color: #fff;
 
   .left {
@@ -30,7 +24,7 @@
 
     .top {
       .title {
-        // color: #fff;
+        color: #fff;
         font-size: 2.5rem;
         font-weight: 700;
         text-transform: uppercase;
@@ -48,7 +42,10 @@
         .icon {
           padding: 0 5px;
           font-size: 2rem;
-          color: #fff;
+          transition: all 200ms ease;
+          cursor: pointer;
+          width: 45px;
+          height: fit-content;
 
           &:hover {
             scale: 1.2;
@@ -56,9 +53,144 @@
         }
       }
     }
+
+    .bottom {
+      div {
+        padding: 3px 0;
+        padding-left: 1.7rem;
+        color: #ddd;
+        font-size: 1.3rem;
+
+        span {
+          color: #ddd;
+
+        }
+      }
+
+      .name {
+        font-size: 2rem;
+        padding-left: 0 !important;
+
+        span {
+          color: #ddd;
+          font-weight: bolder;
+          border-left: 1px solid #ddd;
+          padding-left: 25px;
+        }
+      }
+
+      .mail {
+        div {
+          color: #ddd;
+          padding-left: 0;
+        }
+      }
+    }
   }
 
   .right {
     width: 20%;
+
+    .title {
+      font-weight: 900;
+      text-transform: uppercase;
+      font-size: 2.5rem;
+      padding-bottom: 1rem;
+      color: #ddd;
+    }
+
+    .links {
+      padding-left: 3rem;
+      list-style: none;
+
+      .link {
+        padding-bottom: 0.6rem;
+        font-size: 1.3rem;
+        transition: all 200ms ease;
+        cursor: pointer;
+        color: #ddd;
+
+        &:hover {
+          padding-left: 1rem;
+          color: #fff;
+        }
+      }
+    }
+  }
+}
+
+
+.credit {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #030029;
+  color: #fff;
+  margin: -1rem 0 0 0;
+
+  padding: 0 0 1rem 0;
+
+  a {
+    i {
+      color: #f58442;
+    }
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .outer {
+    // display: none;
+    flex-direction: column;
+    width: 100%;
+    // align-items: center;
+    padding-bottom: 3rem;
+    padding-top: 3rem;
+    padding-left: 2rem;
+
+    .left {
+      flex-direction: column;
+      width: 90%;
+      padding-bottom: 3rem;
+
+      .top {
+        padding-bottom: 3rem;
+      }
+
+      .bottom {
+
+        div,
+        span {
+          font-size: 1rem;
+        }
+
+        .name {
+          span {
+            font-size: 2rem;
+          }
+        }
+      }
+    }
+
+    .right {
+      width: 100%;
+    }
+  }
+
+  .credit {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #030029;
+    color: #fff;
+    margin: -1rem 0 0 0;
+
+    padding: 0 0 1rem 0;
+
+    a {
+      i {
+        color: #f58442;
+      }
+    }
+
   }
 }

@@ -20,3 +20,46 @@
     border: 1px solid #000;
   }
 }
+
+.btn_icon {
+  display: none;
+  z-index: 1;
+  position: fixed;
+  top: 30px;
+  right: 30px;
+  border: 1px solid #fff;
+  // background-color: #00000050;
+  color: #fff;
+  // padding: 10px;
+  width: 60px;
+  height: 60px;
+  font-size: medium;
+  font-weight: bold;
+  transition: all 200ms ease;
+  cursor: pointer;
+  text-transform: uppercase;
+  border-radius: 999px;
+  background-color: #fff;
+
+  .arrowIcon {
+    scale: 2.2;
+  }
+
+  &:hover,
+  &:focus {
+    color: #000;
+    border: 1px solid #000;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .btn {
+    display: none;
+  }
+
+  .btn_icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

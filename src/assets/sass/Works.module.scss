@@ -89,3 +89,24 @@
     }
   }
 }
+
+
+@media screen and (max-width: 425px) {
+  .outer {
+    // display: none;
+    padding: 4rem 0rem;
+
+    .inner {
+      width: 90%;
+
+      .bottom {
+        margin-top: -20px;
+        flex-direction: column;
+
+        .portfolio {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
