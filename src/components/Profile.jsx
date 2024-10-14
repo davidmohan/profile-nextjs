@@ -4,13 +4,13 @@ import Image from 'next/image'
 import React from 'react'
 import ProfileImg from '../assets/img/male-profile.jpg'
 import ProfileStyle from '../assets/sass/Profile.module.scss'
-import { easeIn, motion } from 'framer-motion'
+import { motion } from 'framer-motion'
 
 export default function Profile() {
   return (
     <motion.div className={ProfileStyle.profileOuter} 
-      initial={{scale: 0}}
-      animate={{scale: 1}}
+      initial={{opacity: 0}}
+      animate={{opacity: 1}}
       transition={{duration: 1}}
        >
       <div className={ProfileStyle.profile}>

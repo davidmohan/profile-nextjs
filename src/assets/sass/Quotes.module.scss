@@ -1,0 +1,32 @@
+.outer {
+  width: 100%;
+  padding: 8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .inner {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .quote {
+      text-align: center;
+      font-size: 1.5rem;
+      font-weight: normal;
+
+      div {
+        display: flex;
+        justify-content: end;
+        width: 100%;
+        padding: 2rem 10rem 0 0;
+
+        i {
+
+          font-weight: 800;
+        }
+      }
+    }
+  }
+}

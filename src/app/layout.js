@@ -1,6 +1,7 @@
 import localFont from "next/font/local";
 import "./globals.scss";
-
+import { config } from '@fortawesome/fontawesome-svg-core'
+config.autoAddCss = false;
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
   variable: "--font-geist-sans",
@@ -8,7 +9,7 @@ const geistSans = localFont({
 });
 const geistMono = localFont({
   src: "./fonts/GeistMonoVF.woff",
-  variable: "--font-geist-mono",
+  variable: "--font-geist-mono", 
   weight: "100 900",
 });
 
