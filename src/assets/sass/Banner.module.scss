@@ -32,8 +32,10 @@
 
 @media screen and (max-width: 425px) {
   .outer {
+    height: 80vh;
+
     .content {
-      padding-bottom: 6rem;
+      margin-top: -4rem;
 
       .name {
         font-size: 4rem;
