@@ -3,6 +3,7 @@
 import About from "@/components/About";
 import Banner from "@/components/Banner";
 import Experience from "@/components/Experience";
+import Experience1 from "@/components/Experience1";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import Profile from "@/components/Profile";
@@ -17,6 +18,7 @@ export default function Home() {
       <Banner />
       <Profile />
       <About />
+      <Experience1 />
       <Skills />
       <Experience />
       <Works />
